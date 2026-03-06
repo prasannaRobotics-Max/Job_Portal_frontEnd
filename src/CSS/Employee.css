@@ -1,0 +1,31 @@
+#prev
+{
+    position: fixed;
+    left:4%;
+    bottom:0%;
+}
+#next{
+    position: fixed;
+    right:4%;
+    bottom:0%;
+}
+#home{
+    position: fixed;
+    right:4%;
+    bottom: 0%;
+}
+#view{
+    box-shadow: 0 2px 4px;
+    width:700px;
+    padding:10px;
+    margin:10px auto; 
+}
+table,tr,th{
+    border:1px solid black;
+    padding:5px;
+}
+thead{
+    background-color: blue;
+    color:white;
+    border-color: white;
+}

@@ -1,0 +1,87 @@
+#topbar{
+    position: sticky;
+    top:0;
+    z-index: 1000;
+    display: flex;
+    gap:40px;
+    background-color: white;
+    border-radius: 100px;
+    box-shadow: 0 2px 8px;
+    width:100%;
+   justify-content: space-around;
+    height:100px;
+}
+#logo img{
+    width:100px;
+    border-radius: 100px;
+    
+}
+#jobs img{
+    margin-top: 20px;
+    width:50px;
+    height:50px;
+}
+#jobs{
+    display: flex;
+    gap:15px;
+}
+#jobs h1{
+    margin-top: 5px;
+    font-size: 50px;
+}
+#search input{
+    border-radius: 100px;
+    width:300px;
+    padding:10px;
+    margin-top: 20px;
+}
+#jobsouter{
+    border:1px solid black;
+    height:100vh;
+    max-width:350px;
+    border-radius:10px;
+    border-color: white;
+    box-shadow: 0 2px 4px;
+   padding:10px;
+}
+#jobsouter a,#topbar a{
+    text-decoration: none;
+    color:blue;
+}
+.jobsections{
+    border:1px solid white;
+    width:300px;
+    height:50px;
+    background-color: white;
+    border-radius: 10px;
+    padding:10px;
+    justify-content: center;
+    box-shadow: 0 2px 4px;
+    margin-top: 10px;
+}
+#job{
+    width:700px;
+    padding:20px;
+    height:100%;
+}
+#job button{
+    width:200px;
+}
+#job img{
+    width:200px;
+    border-radius: 100px;
+}
+#homecontent{
+    display:flex;
+    gap:50px;
+
+}
+#search{
+ display: flex;
+ gap:10px;
+}
+#filters{
+    margin-top: 20px;
+  
+}
+

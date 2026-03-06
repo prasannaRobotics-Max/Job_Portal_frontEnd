@@ -1,0 +1,24 @@
+
+#form{
+    background-color: snow;
+    border: 1px solid black;
+    padding:50px;
+    box-shadow: 0 2px 4px;
+    border-color: snow;
+    border-top-left-radius: 100px;
+    border-end-end-radius: 100px;
+    width:500px;
+    margin:0 auto;
+}
+#buttons{
+    background-color: white;
+    box-shadow: 0 2px 4px;
+    border: 1px solid white;
+    width:200px;
+    height:200px;
+    
+}
+#buttons button{
+    margin-top: 20px;
+    
+}
