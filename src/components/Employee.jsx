@@ -258,11 +258,11 @@ function Employee()
                 <tbody>
                     {employee.educationSection.map(edu=>(
                 <tr key={edu.id}>
-                    <td>{edu.levelofstudy}</td>
+                    <td>{edu.levelOfStudy}</td>
                     <td>{edu.name}</td>
                     <td>{edu.location}</td>
-                    <td>{edu.totalmarks}</td>
-                    <td>{edu.yearofcompletion}</td>
+                    <td>{edu.totalMarks}</td>
+                    <td>{edu.yearOfCompletion}</td>
                     <td><button className="btn btn-danger" type="button" onClick={()=>handleDelete(edu.id)}>Delete</button></td>
                 </tr>
                 ))}
